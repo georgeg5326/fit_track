@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: fittrack
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fittrack
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+server:
+  port: 8080
